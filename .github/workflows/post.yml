@@ -36,5 +36,5 @@ jobs:
         run: |
           git config user.name "muscletoday-bot"
           git config user.email "muscletoday.app@gmail.com"
-          git add -A posted.json media tiktok_token.enc
+          git add -A posted.json media tiktok_token.enc status.json
           git diff --cached --quiet || (git commit -m "posted state" && git push)

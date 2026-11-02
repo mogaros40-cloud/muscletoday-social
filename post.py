@@ -178,7 +178,49 @@ def main():
         video = ROOT / item["video"]
         if done and video.exists() and now - datetime.datetime.fromisoformat(done) > datetime.timedelta(hours=6):
             video.unlink()
+    if not only and not dry:
+        write_status(items, now)
     sys.exit(1 if failed else 0)
+
+
+def buffer_status(post_id):
+    """Buffer 예약 글 상태(scheduled/sent/error 등). 열쇠 없거나 실패하면 None."""
+    if not os.environ.get("BUFFER_API_KEY"):
+        return None
+    q = 'query($id: PostId!){ post(input:{id:$id}){ status } }'
+    req = urllib.request.Request("https://api.buffer.com", method="POST",
+                                 data=json.dumps({"query": q, "variables": {"id": post_id}}).encode(),
+                                 headers={"Content-Type": "application/json",
+                                          "Authorization": "Bearer " + os.environ["BUFFER_API_KEY"]})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return (json.load(r).get("data", {}).get("post") or {}).get("status")
+    except Exception:
+        return None
+
+
+def write_status(items, now):
+    """status.json: 아침 9시 보고(D:\\daily-report)가 읽는 점검표. 시간이 지난 편만 판정한다."""
+    rows = []
+    for item in items:
+        rec = STATE.get(item["key"], {})
+        due = datetime.datetime.fromisoformat(item["at"]) <= now
+        row = {"key": item["key"], "at": item["at"], "due": due,
+               "ig": "ok" if "ig_id" in rec else ("missing" if due else "scheduled"),
+               "threads": "ok" if "th_id" in rec else ("missing" if due else "scheduled")}
+        if item["lang"] == "ko":
+            tt = rec.get("tt_id", "")
+            st = buffer_status(tt.split(":", 1)[1].split()[0]) if tt.startswith("buffer:") and due else None
+            row["tiktok"] = ("ok" if st == "sent" else st) if st else ("scheduled" if tt else ("missing" if due else "none"))
+        if rec.get("errors"):
+            row["last_error"] = rec["errors"][-1][:200]
+        rows.append(row)
+    path = ROOT / "status.json"
+    old = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    if old.get("items") == rows:  # 바뀐 게 없으면 안 써서 커밋(=페이지 다시 만들기)을 줄인다
+        return
+    path.write_text(json.dumps({"updated": now.isoformat(timespec="seconds"), "items": rows},
+                               ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 if __name__ == "__main__":
