@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Muscle Today Uploader - connected</title>
+<style>body{font-family:system-ui,sans-serif;max-width:720px;margin:40px auto;padding:0 16px;line-height:1.6}code{word-break:break-all;background:#eee;padding:4px}</style></head><body>
+<h1>Muscle Today Uploader</h1>
+<p id="msg">Reading the authorization result...</p>
+<p><code id="code"></code></p>
+<script>
+const p=new URLSearchParams(location.search);
+const code=p.get('code'), err=p.get('error');
+document.getElementById('msg').textContent = code ? 'Authorized. Copy the full address of this page (or just the code below) back to the uploader.' : ('No code received' + (err ? (': ' + err) : '.'));
+if(code) document.getElementById('code').textContent = code;
+</script>
+</body></html>
