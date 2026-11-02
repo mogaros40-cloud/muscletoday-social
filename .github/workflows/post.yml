@@ -14,6 +14,7 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+      - run: pip install -q cryptography
       - name: post due items
         env:
           IG_TOKEN_KR: ${{ secrets.IG_TOKEN_KR }}
@@ -23,11 +24,15 @@ jobs:
           THREADS_TOKEN_EN: ${{ secrets.THREADS_TOKEN_EN }}
           THREADS_USER_ID_KR: ${{ secrets.THREADS_USER_ID_KR }}
           THREADS_USER_ID_EN: ${{ secrets.THREADS_USER_ID_EN }}
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+          TIKTOK_TOKEN_KEY: ${{ secrets.TIKTOK_TOKEN_KEY }}
         run: python post.py
       - name: save state
         if: always()
         run: |
           git config user.name "muscletoday-bot"
           git config user.email "muscletoday.app@gmail.com"
-          git add -A posted.json media
+          git add -A posted.json media tiktok_token.enc
           git diff --cached --quiet || (git commit -m "posted state" && git push)

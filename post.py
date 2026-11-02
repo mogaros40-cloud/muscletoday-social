@@ -107,6 +107,17 @@ def post_threads(item, rec):
         print("  스레드 답글", rec["th_reply"])
 
 
+def post_tiktok(item, rec):
+    """한국어 계정만. 앱 심사 전이라 임시 보관함으로 보냄 → 사용자가 틱톡 앱에서 글(tiktok.html) 붙여 게시."""
+    if item["lang"] != "ko" or "tt_id" in rec:
+        return
+    import tiktok
+    pid, tok = tiktok.upload_draft(ROOT / item["video"])
+    rec["tt_id"] = pid
+    save_state()
+    print("  틱톡 임시 보관함", pid)
+
+
 STATE_PATH = ROOT / "posted.json"
 STATE = json.loads(STATE_PATH.read_text(encoding="utf-8")) if STATE_PATH.exists() else {}
 
@@ -136,7 +147,7 @@ def main():
         print(key, item["at"], "(시험)" if dry else "")
         if dry:
             continue
-        for step in (post_instagram, post_threads):
+        for step in (post_instagram, post_threads, post_tiktok):
             try:
                 step(item, rec)
             except Exception as e:  # 한 플랫폼이 실패해도 다른 쪽은 올린다
@@ -144,7 +155,8 @@ def main():
                 rec.setdefault("errors", []).append(f"{now.isoformat()} {step.__name__}: {e}"[:600])
                 save_state()
                 print("  실패", step.__name__, str(e)[:300])
-        if all(k in rec for k in ("ig_id", "ig_comment", "th_id", "th_reply")):
+        need = ("ig_id", "ig_comment", "th_id", "th_reply") + (("tt_id",) if item["lang"] == "ko" else ())
+        if all(k in rec for k in need):
             rec["done"] = datetime.datetime.now(KST).isoformat(timespec="seconds")
             save_state()
             video = ROOT / item["video"]
