@@ -17,7 +17,7 @@
  {
   "key": "en-SH001",
   "lang": "en",
-  "at": "2026-11-02T21:50:00+09:00",
+  "at": "2026-11-03T02:00:00+09:00",
   "video": "media/en/SH001.mp4",
   "ig": {
    "caption": "Does a week off really cost you muscle? Here's what a deload study found.\n\nIn a 9-week randomized trial with 39 trained adults, the group that took one full week off mid-way gained about as much muscle size as the group that kept training. Strength gains were slightly smaller.\nResults are study averages and vary from person to person.\n\nGet the Muscle Today app from the link in our profile.\n\nStudies: Coleman et al. 2024 (PeerJ, randomized trial, 39 people, PMID 38274324), Pancar et al. 2026 (Sci Rep, 19 untrained men, PMID 41730991)\n\n#muscletoday #deload #musclegrowth #gym #fitness",
@@ -32,7 +32,7 @@
  {
   "key": "en-SH002",
   "lang": "en",
-  "at": "2026-11-03T02:00:00+09:00",
+  "at": "2026-11-03T09:00:00+09:00",
   "video": "media/en/SH002.mp4",
   "ig": {
    "caption": "Does fasted cardio really burn more fat? A study compared fasted and fed cardio with calories matched.\n\nOver 4 weeks, with the same calorie deficit, fasted and fed cardio led to the same fat loss. It's a small study (20 people), so take it with caution.\nResults are study averages and vary from person to person.\n\nGet the Muscle Today app from the link in our profile.\n\nStudies: Schoenfeld et al. 2014 (J Int Soc Sports Nutr, Randomized trial (small), PMID 25429252), Aird et al. 2018 (Scand J Med Sci Sports, Meta-analysis, PMID 29315892)\n\n#muscletoday #fastedcardio #fatloss #cardio #fitness",
@@ -42,21 +42,6 @@
    "text": "Heard that fasted cardio burns more fat?\nIn a small 4-week study (20 people) with calories matched, fasted and fed cardio led to the same fat loss.\nTeam fasted or team fed for cardio?",
    "topic": "Fat Loss",
    "reply": "Studies\n- Schoenfeld BJ et al. (2014) J Int Soc Sports Nutr, Randomized trial (small): https://pubmed.ncbi.nlm.nih.gov/25429252/\n- Aird TP et al. (2018) Scand J Med Sci Sports, Meta-analysis: https://pubmed.ncbi.nlm.nih.gov/29315892/\n\nMuscle Today, the muscle growth tracking app (Google Play)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Den"
-  }
- },
- {
-  "key": "en-SH003",
-  "lang": "en",
-  "at": "2026-11-03T09:00:00+09:00",
-  "video": "media/en/SH003.mp4",
-  "ig": {
-   "caption": "Is an ice bath after lifting good for your muscles? A 12-week study put it to the test.\n\nFor 12 weeks, the group that took a cold plunge right after lifting gained less muscle and strength than the group that cooled down with easy cycling. It's a small study (21 people), so take it with caution.\nResults are study averages and vary from person to person.\n\nGet the Muscle Today app from the link in our profile.\n\nStudies: Roberts et al. 2015 (J Physiol, Randomized trial (small), PMID 26174323)\n\n#muscletoday #icebath #coldplunge #musclegrowth #gym",
-   "comment": "Have you tried cold plunges after training? How did it feel?"
-  },
-  "threads": {
-   "text": "Ice bath right after lifting: good for your gains?\nIn a small 12-week study (21 people), the cold plunge group gained less muscle and strength than the easy-cooldown group.\nHave you tried cold plunges after training? How did it feel?",
-   "topic": "Fitness",
-   "reply": "Studies\n- Roberts LA et al. (2015) J Physiol, Randomized trial (small): https://pubmed.ncbi.nlm.nih.gov/26174323/\n\nMuscle Today, the muscle growth tracking app (Google Play)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Den"
   }
  },
  {
@@ -90,9 +75,24 @@
   }
  },
  {
-  "key": "en-SH004",
+  "key": "en-SH003",
   "lang": "en",
   "at": "2026-11-04T02:00:00+09:00",
+  "video": "media/en/SH003.mp4",
+  "ig": {
+   "caption": "Is an ice bath after lifting good for your muscles? A 12-week study put it to the test.\n\nFor 12 weeks, the group that took a cold plunge right after lifting gained less muscle and strength than the group that cooled down with easy cycling. It's a small study (21 people), so take it with caution.\nResults are study averages and vary from person to person.\n\nGet the Muscle Today app from the link in our profile.\n\nStudies: Roberts et al. 2015 (J Physiol, Randomized trial (small), PMID 26174323)\n\n#muscletoday #icebath #coldplunge #musclegrowth #gym",
+   "comment": "Have you tried cold plunges after training? How did it feel?"
+  },
+  "threads": {
+   "text": "Ice bath right after lifting: good for your gains?\nIn a small 12-week study (21 people), the cold plunge group gained less muscle and strength than the easy-cooldown group.\nHave you tried cold plunges after training? How did it feel?",
+   "topic": "Fitness",
+   "reply": "Studies\n- Roberts LA et al. (2015) J Physiol, Randomized trial (small): https://pubmed.ncbi.nlm.nih.gov/26174323/\n\nMuscle Today, the muscle growth tracking app (Google Play)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Den"
+  }
+ },
+ {
+  "key": "en-SH004",
+  "lang": "en",
+  "at": "2026-11-04T09:00:00+09:00",
   "video": "media/en/SH004.mp4",
   "ig": {
    "caption": "Does more protein mean more muscle? Results pooled from 49 studies on daily protein.\n\nAcross 49 studies (1,863 people), going above about 1.6 g per kg of body weight a day (about 0.7 g per lb) didn't add more lean mass.\nResults are study averages and vary from person to person.\n\nGet the Muscle Today app from the link in our profile.\n\nStudies: Morton et al. 2018 (Br J Sports Med, Meta-analysis, PMID 28698222)\n\n#muscletoday #protein #musclegrowth #gym #fitness",
@@ -102,21 +102,6 @@
    "text": "Does more protein always mean more muscle?\nAcross 49 studies (1,863 people), lean mass gains stopped climbing above about 1.6 g/kg a day (about 0.7 g/lb).\nHow much protein do you eat a day? Have you tried body weight (lb) x 0.7?",
    "topic": "Nutrition",
    "reply": "Studies\n- Morton RW et al. (2018) Br J Sports Med, Meta-analysis: https://pubmed.ncbi.nlm.nih.gov/28698222/\n\nMuscle Today, the muscle growth tracking app (Google Play)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Den"
-  }
- },
- {
-  "key": "en-SH005",
-  "lang": "en",
-  "at": "2026-11-04T09:00:00+09:00",
-  "video": "media/en/SH005.mp4",
-  "ig": {
-   "caption": "Does cardio really kill your gains? Results pooled from 43 studies on lifting plus cardio.\n\nAcross 43 studies, adding cardio didn't change muscle size or max strength. Explosive power was slightly lower when cardio was done on the same day.\nResults are study averages and vary from person to person.\n\nGet the Muscle Today app from the link in our profile.\n\nStudies: Schumann et al. 2022 (Sports Med, Meta-analysis, PMID 34757594)\n\n#muscletoday #cardio #musclegrowth #gym #fitness",
-   "comment": "When do you do cardio: before lifting, after, or on separate days?"
-  },
-  "threads": {
-   "text": "Does cardio kill your gains?\nAcross 43 studies, adding cardio didn't change muscle size or max strength. Only explosive power took a small hit when done on the same day.\nWhen do you do cardio: before lifting, after, or on separate days?",
-   "topic": "Fitness",
-   "reply": "Studies\n- Schumann M et al. (2022) Sports Med, Meta-analysis: https://pubmed.ncbi.nlm.nih.gov/34757594/\n\nMuscle Today, the muscle growth tracking app (Google Play)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Den"
   }
  },
  {
@@ -150,9 +135,24 @@
   }
  },
  {
-  "key": "en-SH006",
+  "key": "en-SH005",
   "lang": "en",
   "at": "2026-11-05T02:00:00+09:00",
+  "video": "media/en/SH005.mp4",
+  "ig": {
+   "caption": "Does cardio really kill your gains? Results pooled from 43 studies on lifting plus cardio.\n\nAcross 43 studies, adding cardio didn't change muscle size or max strength. Explosive power was slightly lower when cardio was done on the same day.\nResults are study averages and vary from person to person.\n\nGet the Muscle Today app from the link in our profile.\n\nStudies: Schumann et al. 2022 (Sports Med, Meta-analysis, PMID 34757594)\n\n#muscletoday #cardio #musclegrowth #gym #fitness",
+   "comment": "When do you do cardio: before lifting, after, or on separate days?"
+  },
+  "threads": {
+   "text": "Does cardio kill your gains?\nAcross 43 studies, adding cardio didn't change muscle size or max strength. Only explosive power took a small hit when done on the same day.\nWhen do you do cardio: before lifting, after, or on separate days?",
+   "topic": "Fitness",
+   "reply": "Studies\n- Schumann M et al. (2022) Sports Med, Meta-analysis: https://pubmed.ncbi.nlm.nih.gov/34757594/\n\nMuscle Today, the muscle growth tracking app (Google Play)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Den"
+  }
+ },
+ {
+  "key": "en-SH006",
+  "lang": "en",
+  "at": "2026-11-05T09:00:00+09:00",
   "video": "media/en/SH006.mp4",
   "ig": {
    "caption": "How many times a week should you train a muscle? Here's what the frequency research says.\n\nWith the same weekly sets, training a muscle once or several times a week led to similar muscle growth (25 studies). Strength went up more with higher frequency, with smaller gains each step (67 studies).\nResults are study averages and vary from person to person.\n\nGet the Muscle Today app from the link in our profile.\n\nStudies: Schoenfeld et al. 2019 (J Sports Sci, Meta-analysis, PMID 30558493), Pelland et al. 2026 (Sports Med, Meta-regression, PMID 41343037)\n\n#muscletoday #trainingfrequency #musclegrowth #gym #workoutroutine",
@@ -162,21 +162,6 @@
    "text": "Once a week or spread out: how often should you hit a muscle?\nWith weekly sets matched, muscle growth was similar (25 studies). Strength rose more with higher frequency, with smaller gains each step (67 studies).\nHow many times a week do you hit each muscle?",
    "topic": "Fitness",
    "reply": "Studies\n- Schoenfeld BJ et al. (2019) J Sports Sci, Meta-analysis: https://pubmed.ncbi.nlm.nih.gov/30558493/\n- Pelland JC et al. (2026) Sports Med, Meta-regression: https://pubmed.ncbi.nlm.nih.gov/41343037/\n\nMuscle Today, the muscle growth tracking app (Google Play)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Den"
-  }
- },
- {
-  "key": "en-SH007",
-  "lang": "en",
-  "at": "2026-11-05T09:00:00+09:00",
-  "video": "media/en/SH007.mp4",
-  "ig": {
-   "caption": "Split or full-body: which builds more muscle? Results pooled from 14 studies.\n\nAcross 14 studies (392 people), when total volume was the same, split and full-body routines led to similar muscle size and strength. Pick the one you enjoy.\nResults are study averages and vary from person to person.\n\nGet the Muscle Today app from the link in our profile.\n\nStudies: Ramos-Campo et al. 2024 (J Strength Cond Res, Meta-analysis, PMID 38595233)\n\n#muscletoday #splitroutine #fullbody #gym #workoutroutine",
-   "comment": "Split or full-body: which one do you run?"
-  },
-  "threads": {
-   "text": "Split or full-body: which builds more muscle?\nAcross 14 studies (392 people), with volume matched, muscle size and strength were similar. Pick the one you enjoy.\nSplit or full-body: which one do you run?",
-   "topic": "Fitness",
-   "reply": "Studies\n- Ramos-Campo DJ et al. (2024) J Strength Cond Res, Meta-analysis: https://pubmed.ncbi.nlm.nih.gov/38595233/\n\nMuscle Today, the muscle growth tracking app (Google Play)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Den"
   }
  },
  {
@@ -210,9 +195,24 @@
   }
  },
  {
-  "key": "en-SH008",
+  "key": "en-SH007",
   "lang": "en",
   "at": "2026-11-06T02:00:00+09:00",
+  "video": "media/en/SH007.mp4",
+  "ig": {
+   "caption": "Split or full-body: which builds more muscle? Results pooled from 14 studies.\n\nAcross 14 studies (392 people), when total volume was the same, split and full-body routines led to similar muscle size and strength. Pick the one you enjoy.\nResults are study averages and vary from person to person.\n\nGet the Muscle Today app from the link in our profile.\n\nStudies: Ramos-Campo et al. 2024 (J Strength Cond Res, Meta-analysis, PMID 38595233)\n\n#muscletoday #splitroutine #fullbody #gym #workoutroutine",
+   "comment": "Split or full-body: which one do you run?"
+  },
+  "threads": {
+   "text": "Split or full-body: which builds more muscle?\nAcross 14 studies (392 people), with volume matched, muscle size and strength were similar. Pick the one you enjoy.\nSplit or full-body: which one do you run?",
+   "topic": "Fitness",
+   "reply": "Studies\n- Ramos-Campo DJ et al. (2024) J Strength Cond Res, Meta-analysis: https://pubmed.ncbi.nlm.nih.gov/38595233/\n\nMuscle Today, the muscle growth tracking app (Google Play)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Den"
+  }
+ },
+ {
+  "key": "en-SH008",
+  "lang": "en",
+  "at": "2026-11-06T09:00:00+09:00",
   "video": "media/en/SH008.mp4",
   "ig": {
    "caption": "Do you have to keep adding weight to grow? An 8-week study compared two ways to progress.\n\n43 lifters with at least a year of leg training either added weight or added reps at the same weight. After 8 weeks, muscle thickness and strength improved about the same.\nResults are study averages and vary from person to person.\n\nGet the Muscle Today app from the link in our profile.\n\nStudies: Plotkin et al. 2022 (PeerJ, Randomized trial, PMID 36199287)\n\n#muscletoday #progressiveoverload #musclegrowth #gym #fitness",
@@ -222,21 +222,6 @@
    "text": "Progressive overload: do you have to add weight?\nIn an 8-week study with 43 trained lifters, adding weight or adding reps at the same weight led to similar muscle and strength gains.\nWhen you stall, do you add weight or add reps?",
    "topic": "Fitness",
    "reply": "Studies\n- Plotkin D et al. (2022) PeerJ, Randomized trial: https://pubmed.ncbi.nlm.nih.gov/36199287/\n\nMuscle Today, the muscle growth tracking app (Google Play)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Den"
-  }
- },
- {
-  "key": "en-SH009",
-  "lang": "en",
-  "at": "2026-11-06T09:00:00+09:00",
-  "video": "media/en/SH009.mp4",
-  "ig": {
-   "caption": "Do you have to train to failure every set? Results pooled from 15 studies.\n\nAcross 15 studies, going to failure gave only a very small edge in muscle growth. Looking only at studies with strict failure, there was no difference.\nResults are study averages and vary from person to person.\n\nGet the Muscle Today app from the link in our profile.\n\nStudies: Refalo et al. 2023 (Sports Med, Meta-analysis, PMID 36334240)\n\n#muscletoday #trainingtofailure #musclegrowth #gym #fitness",
-   "comment": "How many reps do you usually leave in the tank?"
-  },
-  "threads": {
-   "text": "Do you need to hit failure every set to grow?\nAcross 15 studies, the edge from training to failure was very small, and with strict failure only, there was no difference.\nHow many reps do you usually leave in the tank?",
-   "topic": "Fitness",
-   "reply": "Studies\n- Refalo MC et al. (2023) Sports Med, Meta-analysis: https://pubmed.ncbi.nlm.nih.gov/36334240/\n\nMuscle Today, the muscle growth tracking app (Google Play)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Den"
   }
  },
  {
@@ -270,9 +255,24 @@
   }
  },
  {
-  "key": "en-SH010",
+  "key": "en-SH009",
   "lang": "en",
   "at": "2026-11-07T02:00:00+09:00",
+  "video": "media/en/SH009.mp4",
+  "ig": {
+   "caption": "Do you have to train to failure every set? Results pooled from 15 studies.\n\nAcross 15 studies, going to failure gave only a very small edge in muscle growth. Looking only at studies with strict failure, there was no difference.\nResults are study averages and vary from person to person.\n\nGet the Muscle Today app from the link in our profile.\n\nStudies: Refalo et al. 2023 (Sports Med, Meta-analysis, PMID 36334240)\n\n#muscletoday #trainingtofailure #musclegrowth #gym #fitness",
+   "comment": "How many reps do you usually leave in the tank?"
+  },
+  "threads": {
+   "text": "Do you need to hit failure every set to grow?\nAcross 15 studies, the edge from training to failure was very small, and with strict failure only, there was no difference.\nHow many reps do you usually leave in the tank?",
+   "topic": "Fitness",
+   "reply": "Studies\n- Refalo MC et al. (2023) Sports Med, Meta-analysis: https://pubmed.ncbi.nlm.nih.gov/36334240/\n\nMuscle Today, the muscle growth tracking app (Google Play)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Den"
+  }
+ },
+ {
+  "key": "en-SH010",
+  "lang": "en",
+  "at": "2026-11-07T09:00:00+09:00",
   "video": "media/en/SH010.mp4",
   "ig": {
    "caption": "Is there really a 30-minute protein window? A meta-analysis of 23 studies.\n\nAcross 23 randomized trials (525 people), timing protein around workouts didn't make a difference. What best explained muscle growth was total protein for the day.\nResults are study averages and vary from person to person.\n\nGet the Muscle Today app from the link in our profile.\n\nStudies: Schoenfeld et al. 2013 (J Int Soc Sports Nutr, Meta-analysis, PMID 24299050)\n\n#muscletoday #proteintiming #protein #gym #fitness",
@@ -282,21 +282,6 @@
    "text": "Is the 30-minute protein window real?\nAcross 23 trials (525 people), timing didn't make a difference. Total daily protein explained muscle growth best.\nDo you rush your shake after training, or eat whenever?",
    "topic": "Nutrition",
    "reply": "Studies\n- Schoenfeld BJ et al. (2013) J Int Soc Sports Nutr, Meta-analysis: https://pubmed.ncbi.nlm.nih.gov/24299050/\n\nMuscle Today, the muscle growth tracking app (Google Play)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Den"
-  }
- },
- {
-  "key": "en-SH011",
-  "lang": "en",
-  "at": "2026-11-07T09:00:00+09:00",
-  "video": "media/en/SH011.mp4",
-  "ig": {
-   "caption": "Light weights or heavy weights: which builds more muscle? Results pooled from 21 studies.\n\nAcross 21 studies where every set went to failure, light and heavy loads led to similar muscle growth. Max strength (1RM) went up more with heavy loads.\nResults are study averages and vary from person to person.\n\nGet the Muscle Today app from the link in our profile.\n\nStudies: Schoenfeld et al. 2017 (J Strength Cond Res, Meta-analysis, PMID 28834797)\n\n#muscletoday #lightvsheavy #musclegrowth #gym #fitness",
-   "comment": "What rep range do you train in most?"
-  },
-  "threads": {
-   "text": "Light or heavy weights: which builds more muscle?\nAcross 21 studies with every set to failure, muscle growth was similar. Max strength (1RM) went up more with heavy loads.\nWhat rep range do you train in most?",
-   "topic": "Fitness",
-   "reply": "Studies\n- Schoenfeld BJ et al. (2017) J Strength Cond Res, Meta-analysis: https://pubmed.ncbi.nlm.nih.gov/28834797/\n\nMuscle Today, the muscle growth tracking app (Google Play)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Den"
   }
  },
  {
@@ -327,6 +312,21 @@
    "text": "가볍게 많이 vs 무겁게 적게, 근육은 어느 쪽이 더 클까요?\n모든 세트를 실패까지 한 연구 21편에선 근육 크기 증가가 비슷했어요. 최대 무게(1RM)는 무겁게 한 쪽이 더 늘었고요.\n여러분은 주로 몇 회 반복으로 운동하나요?",
    "topic": "헬스",
    "reply": "참고 논문\n- Schoenfeld BJ 외 (2017) J Strength Cond Res, 메타분석(연구 21편): https://pubmed.ncbi.nlm.nih.gov/28834797/\n\n근성장 관리 앱 오늘근육 (구글 플레이)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Dko"
+  }
+ },
+ {
+  "key": "en-SH011",
+  "lang": "en",
+  "at": "2026-11-08T02:00:00+09:00",
+  "video": "media/en/SH011.mp4",
+  "ig": {
+   "caption": "Light weights or heavy weights: which builds more muscle? Results pooled from 21 studies.\n\nAcross 21 studies where every set went to failure, light and heavy loads led to similar muscle growth. Max strength (1RM) went up more with heavy loads.\nResults are study averages and vary from person to person.\n\nGet the Muscle Today app from the link in our profile.\n\nStudies: Schoenfeld et al. 2017 (J Strength Cond Res, Meta-analysis, PMID 28834797)\n\n#muscletoday #lightvsheavy #musclegrowth #gym #fitness",
+   "comment": "What rep range do you train in most?"
+  },
+  "threads": {
+   "text": "Light or heavy weights: which builds more muscle?\nAcross 21 studies with every set to failure, muscle growth was similar. Max strength (1RM) went up more with heavy loads.\nWhat rep range do you train in most?",
+   "topic": "Fitness",
+   "reply": "Studies\n- Schoenfeld BJ et al. (2017) J Strength Cond Res, Meta-analysis: https://pubmed.ncbi.nlm.nih.gov/28834797/\n\nMuscle Today, the muscle growth tracking app (Google Play)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Den"
   }
  }
 ]
