@@ -1,0 +1,33 @@
+name: post
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: post
+  cancel-in-progress: false
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: post due items
+        env:
+          IG_TOKEN_KR: ${{ secrets.IG_TOKEN_KR }}
+          IG_USER_ID_KR: ${{ secrets.IG_USER_ID_KR }}
+          IG_USER_ID_EN: ${{ secrets.IG_USER_ID_EN }}
+          THREADS_TOKEN_KR: ${{ secrets.THREADS_TOKEN_KR }}
+          THREADS_TOKEN_EN: ${{ secrets.THREADS_TOKEN_EN }}
+          THREADS_USER_ID_KR: ${{ secrets.THREADS_USER_ID_KR }}
+          THREADS_USER_ID_EN: ${{ secrets.THREADS_USER_ID_EN }}
+        run: python post.py
+      - name: save state
+        if: always()
+        run: |
+          git config user.name "muscletoday-bot"
+          git config user.email "muscletoday.app@gmail.com"
+          git add -A posted.json media
+          git diff --cached --quiet || (git commit -m "posted state" && git push)
