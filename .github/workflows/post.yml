@@ -24,6 +24,8 @@ jobs:
           THREADS_TOKEN_EN: ${{ secrets.THREADS_TOKEN_EN }}
           THREADS_USER_ID_KR: ${{ secrets.THREADS_USER_ID_KR }}
           THREADS_USER_ID_EN: ${{ secrets.THREADS_USER_ID_EN }}
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_TIKTOK_CHANNEL_ID: ${{ secrets.BUFFER_TIKTOK_CHANNEL_ID }}
           TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
           TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
           TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}

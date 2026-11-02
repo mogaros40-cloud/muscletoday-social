@@ -108,14 +108,27 @@ def post_threads(item, rec):
 
 
 def post_tiktok(item, rec):
-    """한국어 계정만. 앱 심사 전이라 임시 보관함으로 보냄 → 사용자가 틱톡 앱에서 글(tiktok.html) 붙여 게시."""
+    """한국어 계정만. Buffer(무료, 틱톡 승인 앱)로 바로 공개 게시: 글·해시태그·AI 표시 포함.
+    (예전 방식 tiktok.py = 임시 보관함 업로드는 Buffer가 막힐 때 대비로 남겨 둠)"""
     if item["lang"] != "ko" or "tt_id" in rec:
         return
-    import tiktok
-    pid, tok = tiktok.upload_draft(ROOT / item["video"])
-    rec["tt_id"] = pid
+    q = ("mutation($input: CreatePostInput!){ createPost(input:$input){ "
+         "... on PostActionSuccess { post { id status } } ... on MutationError { message } } }")
+    inp = {"channelId": os.environ["BUFFER_TIKTOK_CHANNEL_ID"], "text": item["ig"]["caption"],
+           "schedulingType": "automatic", "mode": "shareNow",
+           "metadata": {"tiktok": {"isAiGenerated": True}},
+           "assets": [{"video": {"url": BASE_URL + item["video"]}}]}
+    req = urllib.request.Request("https://api.buffer.com", method="POST",
+                                 data=json.dumps({"query": q, "variables": {"input": inp}}).encode(),
+                                 headers={"Content-Type": "application/json",
+                                          "Authorization": "Bearer " + os.environ["BUFFER_API_KEY"]})
+    with urllib.request.urlopen(req, timeout=120) as r:
+        res = json.load(r).get("data", {}).get("createPost") or {}
+    if "post" not in res:
+        raise RuntimeError(f"buffer {res.get('message') or res}")
+    rec["tt_id"] = "buffer:" + res["post"]["id"]
     save_state()
-    print("  틱톡 임시 보관함", pid)
+    print("  틱톡(Buffer) 게시", rec["tt_id"], res["post"].get("status"))
 
 
 STATE_PATH = ROOT / "posted.json"
@@ -159,9 +172,12 @@ def main():
         if all(k in rec for k in need):
             rec["done"] = datetime.datetime.now(KST).isoformat(timespec="seconds")
             save_state()
-            video = ROOT / item["video"]
-            if video.exists():  # 메타가 이미 복사해 갔으니 공개 사본은 지운다
-                video.unlink()
+    # 공개 영상 사본은 다 올린 뒤 6시간 지나면 지운다(Buffer가 나중에 받아 갈 수 있어서 바로 안 지움)
+    for item in items:
+        done = STATE.get(item["key"], {}).get("done")
+        video = ROOT / item["video"]
+        if done and video.exists() and now - datetime.datetime.fromisoformat(done) > datetime.timedelta(hours=6):
+            video.unlink()
     sys.exit(1 if failed else 0)
 
 
