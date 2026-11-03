@@ -12,7 +12,15 @@
   "tt_draft": "v_inbox_file~v2.7703609421686966279"
  },
  "ko-SH002": {
-  "tt_id": "buffer:6ae8c92e0c3d9c450cee66bd"
+  "tt_id": "buffer:6ae8c92e0c3d9c450cee66bd",
+  "ig_container": "17869164474671908",
+  "ig_id": "18025233290930334",
+  "ig_comment": "18133683304774781",
+  "th_container": "18028758161888387",
+  "th_id": "18352386805254614",
+  "th_reply_container": "18028758191888387",
+  "th_reply": "18028619438697476",
+  "done": "2026-11-03T12:02:33+09:00"
  },
  "ko-SH003": {
   "tt_id": "buffer:6ae8c92e0c3d9c450cee66fe"
