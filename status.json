@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T02:31:06+09:00",
+ "updated": "2026-11-04T02:46:48+09:00",
  "items": [
   {
    "key": "ko-SH001",
@@ -43,8 +43,8 @@
    "key": "en-SH003",
    "at": "2026-11-04T02:00:00+09:00",
    "due": true,
-   "ig": "missing",
-   "threads": "missing",
+   "ig": "ok",
+   "threads": "ok",
    "last_error": "2026-11-04T02:31:06.865238+09:00 post_threads: 400 https://graph.threads.net/v1.0/29455492690806105/threads {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A"
   },
   {
