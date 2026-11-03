@@ -180,7 +180,9 @@ def main():
             video.unlink()
     if not only and not dry:
         write_status(items, now)
-    sys.exit(1 if failed else 0)
+    # 올리기 실패는 status.json → 아침 9시 보고 메일로만 알린다(2026-11-04 사용자: 15분마다 실패 메일 쌓이지 않게).
+    # 실패한 단계는 다음 실행이 이어서 하므로 예약 실행은 성공으로 끝낸다. 손으로 --only 돌릴 때만 실패 코드.
+    sys.exit(1 if failed and only else 0)
 
 
 def buffer_status(post_id):
