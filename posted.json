@@ -82,7 +82,9 @@
    "2026-11-04T02:01:50.122265+09:00 post_instagram: 400 https://graph.facebook.com/v23.0/17841415127166656/media {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AcAqtyzkXh8775eEM0pQW0f\"}}",
    "2026-11-04T02:01:50.122265+09:00 post_threads: 400 https://graph.threads.net/v1.0/29455492690806105/threads {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AYD_tuN2sVzJN9ZARmesw2z\"}}",
    "2026-11-04T02:15:52.718296+09:00 post_instagram: 400 https://graph.facebook.com/v23.0/17841415127166656/media {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"ATi9WHxyBdTQYEXxb8Tz8zS\"}}",
-   "2026-11-04T02:15:52.718296+09:00 post_threads: 400 https://graph.threads.net/v1.0/29455492690806105/threads {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A3ofPvdtT7gn9vtnUkjJOyq\"}}"
+   "2026-11-04T02:15:52.718296+09:00 post_threads: 400 https://graph.threads.net/v1.0/29455492690806105/threads {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A3ofPvdtT7gn9vtnUkjJOyq\"}}",
+   "2026-11-04T02:31:06.865238+09:00 post_instagram: 400 https://graph.facebook.com/v23.0/17841415127166656/media {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AaRKm7fSxJNqZ6S6yzzKzcf\"}}",
+   "2026-11-04T02:31:06.865238+09:00 post_threads: 400 https://graph.threads.net/v1.0/29455492690806105/threads {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"ACz6P7O0jtM7zrJfWoXUpKu\"}}"
   ]
  }
 }
