@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T02:01:15+09:00",
+ "updated": "2026-11-05T03:15:47+09:00",
  "items": [
   {
    "key": "ko-SH001",
@@ -283,6 +283,140 @@
   {
    "key": "en-SH019",
    "at": "2026-11-12T02:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "en-SH020",
+   "at": "2026-11-12T09:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "ko-SH020",
+   "at": "2026-11-12T12:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "en-SH021",
+   "at": "2026-11-13T02:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "en-SH022",
+   "at": "2026-11-13T09:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "ko-SH022",
+   "at": "2026-11-13T12:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "ko-SH023",
+   "at": "2026-11-13T19:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "en-SH023",
+   "at": "2026-11-14T02:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "en-SH024",
+   "at": "2026-11-14T09:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "ko-SH024",
+   "at": "2026-11-14T12:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "ko-SH025",
+   "at": "2026-11-14T19:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "en-SH025",
+   "at": "2026-11-15T02:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "en-SH026",
+   "at": "2026-11-15T09:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "ko-SH026",
+   "at": "2026-11-15T12:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "en-SH027",
+   "at": "2026-11-16T02:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "en-SH028",
+   "at": "2026-11-16T09:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "ko-SH028",
+   "at": "2026-11-16T12:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "ko-SH029",
+   "at": "2026-11-16T19:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "en-SH029",
+   "at": "2026-11-17T02:00:00+09:00",
    "due": false,
    "ig": "scheduled",
    "threads": "scheduled"
