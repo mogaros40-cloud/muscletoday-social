@@ -178,7 +178,8 @@
   "th_reply_container": "18029313515888387",
   "th_reply": "17916022893494496",
   "errors": [
-   "2026-11-05T21:01:15.352869+09:00 post_tiktok: HTTP Error 429: Too Many Requests"
+   "2026-11-05T21:01:15.352869+09:00 post_tiktok: HTTP Error 429: Too Many Requests",
+   "2026-11-05T21:15:54.521570+09:00 post_tiktok: HTTP Error 429: Too Many Requests"
   ]
  }
 }
