@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T01:31:06+09:00",
+ "updated": "2026-11-06T01:45:54+09:00",
  "items": [
   {
    "key": "ko-SH001",
@@ -7,7 +7,7 @@
    "due": true,
    "ig": "ok",
    "threads": "ok",
-   "tiktok": "scheduled"
+   "tiktok": "ok"
   },
   {
    "key": "en-SH001",
@@ -29,7 +29,7 @@
    "due": true,
    "ig": "ok",
    "threads": "ok",
-   "tiktok": "scheduled"
+   "tiktok": "ok"
   },
   {
    "key": "ko-SH003",
@@ -37,7 +37,7 @@
    "due": true,
    "ig": "ok",
    "threads": "ok",
-   "tiktok": "scheduled"
+   "tiktok": "ok"
   },
   {
    "key": "en-SH003",
@@ -60,7 +60,7 @@
    "due": true,
    "ig": "ok",
    "threads": "ok",
-   "tiktok": "scheduled"
+   "tiktok": "ok"
   },
   {
    "key": "ko-SH005",
@@ -68,7 +68,7 @@
    "due": true,
    "ig": "ok",
    "threads": "ok",
-   "tiktok": "scheduled"
+   "tiktok": "ok"
   },
   {
    "key": "en-SH005",
@@ -90,7 +90,7 @@
    "due": true,
    "ig": "ok",
    "threads": "ok",
-   "tiktok": "scheduled"
+   "tiktok": "ok"
   },
   {
    "key": "ko-SH007",
@@ -98,7 +98,7 @@
    "due": true,
    "ig": "ok",
    "threads": "ok",
-   "tiktok": "scheduled"
+   "tiktok": "ok"
   },
   {
    "key": "ko-LV001T",
@@ -107,7 +107,7 @@
    "ig": "ok",
    "threads": "ok",
    "tiktok": "missing",
-   "last_error": "2026-11-06T01:31:06.196538+09:00 post_tiktok: HTTP Error 429: Too Many Requests"
+   "last_error": "2026-11-06T01:45:54.995910+09:00 post_tiktok: HTTP Error 429: Too Many Requests"
   },
   {
    "key": "en-SH007",
