@@ -212,7 +212,17 @@ def write_status(items, now):
                "threads": "ok" if "th_id" in rec else ("missing" if due else "scheduled")}
         if item["lang"] == "ko":
             tt = rec.get("tt_id", "")
-            st = buffer_status(tt.split(":", 1)[1].split()[0]) if tt.startswith("buffer:") and due else None
+            st = rec.get("tt_status")
+            # Buffer 요청 한도(429, 11-05) 때문에: 게시 확인(sent)된 편은 다시 묻지 않고,
+            # 아직 확인 안 된 편도 1시간에 한 번만 묻는다. 결과는 posted.json에 남긴다.
+            checked = rec.get("tt_checked")
+            fresh = checked and now - datetime.datetime.fromisoformat(checked) < datetime.timedelta(hours=1)
+            if tt.startswith("buffer:") and due and st != "sent" and not fresh:
+                new = buffer_status(tt.split(":", 1)[1].split()[0])
+                rec["tt_checked"] = now.isoformat(timespec="seconds")
+                if new:
+                    rec["tt_status"] = st = new
+                save_state()
             row["tiktok"] = ("ok" if st == "sent" else st) if st else ("scheduled" if tt else ("missing" if due else "none"))
         if rec.get("errors"):
             row["last_error"] = rec["errors"][-1][:200]
