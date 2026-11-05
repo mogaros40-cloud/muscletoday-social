@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T09:01:03+09:00",
+ "updated": "2026-11-05T11:31:03+09:00",
  "items": [
   {
    "key": "ko-SH001",
@@ -101,6 +101,14 @@
    "tiktok": "scheduled"
   },
   {
+   "key": "ko-LV001T",
+   "at": "2026-11-05T21:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
    "key": "en-SH007",
    "at": "2026-11-06T02:00:00+09:00",
    "due": false,
@@ -110,6 +118,13 @@
   {
    "key": "en-SH008",
    "at": "2026-11-06T09:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "en-LV001T",
+   "at": "2026-11-06T11:00:00+09:00",
    "due": false,
    "ig": "scheduled",
    "threads": "scheduled"
@@ -251,6 +266,14 @@
    "tiktok": "none"
   },
   {
+   "key": "ko-LV002T",
+   "at": "2026-11-10T21:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
    "key": "en-SH017",
    "at": "2026-11-11T02:00:00+09:00",
    "due": false,
@@ -260,6 +283,13 @@
   {
    "key": "en-SH018",
    "at": "2026-11-11T09:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "en-LV002T",
+   "at": "2026-11-11T11:00:00+09:00",
    "due": false,
    "ig": "scheduled",
    "threads": "scheduled"
@@ -401,6 +431,14 @@
    "tiktok": "none"
   },
   {
+   "key": "ko-LV003T",
+   "at": "2026-11-15T21:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
    "key": "en-SH027",
    "at": "2026-11-16T02:00:00+09:00",
    "due": false,
@@ -410,6 +448,13 @@
   {
    "key": "en-SH028",
    "at": "2026-11-16T09:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "en-LV003T",
+   "at": "2026-11-16T11:00:00+09:00",
    "due": false,
    "ig": "scheduled",
    "threads": "scheduled"
