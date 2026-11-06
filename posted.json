@@ -241,7 +241,8 @@
    "2026-11-06T10:00:39.299271+09:00 post_tiktok: HTTP Error 429: Too Many Requests",
    "2026-11-06T10:15:54.896866+09:00 post_tiktok: HTTP Error 429: Too Many Requests",
    "2026-11-06T10:31:02.339825+09:00 post_tiktok: HTTP Error 429: Too Many Requests",
-   "2026-11-06T10:45:50.348477+09:00 post_tiktok: HTTP Error 429: Too Many Requests"
+   "2026-11-06T10:45:50.348477+09:00 post_tiktok: HTTP Error 429: Too Many Requests",
+   "2026-11-06T11:01:09.027307+09:00 post_tiktok: HTTP Error 429: Too Many Requests"
   ]
  },
  "en-SH007": {
@@ -263,5 +264,15 @@
   "th_reply_container": "17980392104932974",
   "th_reply": "17881997367546743",
   "done": "2026-11-06T09:02:53+09:00"
+ },
+ "en-LV001T": {
+  "ig_container": "18155884990504239",
+  "ig_id": "17915131434506522",
+  "ig_comment": "18356356321217284",
+  "th_container": "17980408634932974",
+  "th_id": "18116864558589840",
+  "th_reply_container": "17980408667932974",
+  "th_reply": "18109491863577936",
+  "done": "2026-11-06T11:03:22+09:00"
  }
 }
