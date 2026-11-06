@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T10:00:39+09:00",
+ "updated": "2026-11-06T10:15:54+09:00",
  "items": [
   {
    "key": "ko-SH001",
@@ -107,7 +107,7 @@
    "ig": "ok",
    "threads": "ok",
    "tiktok": "missing",
-   "last_error": "2026-11-06T10:00:39.299271+09:00 post_tiktok: HTTP Error 429: Too Many Requests"
+   "last_error": "2026-11-06T10:15:54.896866+09:00 post_tiktok: HTTP Error 429: Too Many Requests"
   },
   {
    "key": "en-SH007",
