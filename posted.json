@@ -85,7 +85,16 @@
   "tt_status": "sent"
  },
  "ko-SH008": {
-  "tt_id": "buffer:6ae8c932a99125fa8e9d9c79"
+  "tt_id": "buffer:6ae8c932a99125fa8e9d9c79",
+  "ig_container": "17869774650671908",
+  "ig_id": "18123593708316902",
+  "ig_comment": "17963361167996797",
+  "th_container": "18029466116888387",
+  "th_id": "18414836341091654",
+  "th_reply_container": "18029466170888387",
+  "th_reply": "17942521203388871",
+  "done": "2026-11-06T12:02:38+09:00",
+  "tt_checked": "2026-11-06T12:01:01+09:00"
  },
  "ko-SH009": {
   "tt_id": "buffer:6ae8c9330c3d9c450cee6810"
