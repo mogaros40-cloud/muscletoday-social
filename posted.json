@@ -246,7 +246,8 @@
    "2026-11-06T11:15:56.358575+09:00 post_tiktok: HTTP Error 429: Too Many Requests",
    "2026-11-06T11:30:50.070930+09:00 post_tiktok: HTTP Error 429: Too Many Requests"
   ],
-  "tt_id": "web: Buffer 웹 예약 11-06 15:30 (API 한도)"
+  "tt_id": "web: Buffer 웹 예약 11-06 15:30 (API 한도)",
+  "done": "2026-11-06T11:45:45+09:00"
  },
  "en-SH007": {
   "ig_container": "18155790550504239",
