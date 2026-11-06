@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T08:45:53+09:00",
+ "updated": "2026-11-06T09:01:13+09:00",
  "items": [
   {
    "key": "ko-SH001",
@@ -107,7 +107,7 @@
    "ig": "ok",
    "threads": "ok",
    "tiktok": "missing",
-   "last_error": "2026-11-06T08:45:53.351023+09:00 post_tiktok: HTTP Error 429: Too Many Requests"
+   "last_error": "2026-11-06T09:01:13.150470+09:00 post_tiktok: HTTP Error 429: Too Many Requests"
   },
   {
    "key": "en-SH007",
@@ -119,9 +119,9 @@
   {
    "key": "en-SH008",
    "at": "2026-11-06T09:00:00+09:00",
-   "due": false,
-   "ig": "scheduled",
-   "threads": "scheduled"
+   "due": true,
+   "ig": "ok",
+   "threads": "ok"
   },
   {
    "key": "en-LV001T",
