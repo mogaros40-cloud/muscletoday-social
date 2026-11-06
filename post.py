@@ -112,6 +112,17 @@ def post_tiktok(item, rec):
     (예전 방식 tiktok.py = 임시 보관함 업로드는 Buffer가 막힐 때 대비로 남겨 둠)"""
     if item["lang"] != "ko" or "tt_id" in rec:
         return
+    now = datetime.datetime.now(KST)
+    # 11-06 사용자 1안: Buffer API 한도(30일 1,000번)를 다 써서 12-03 02:29까지 막힘.
+    # 그동안은 Claude가 Buffer 웹에서 예약하고 posted.json tt_id에 "web:..."을 적는다. 여기선 시도 안 함.
+    # 오류로 남기지 않고 조용히 넘긴다(15분마다 기록이 쌓이지 않게). 빠진 편은 status.json에 missing으로 보인다.
+    if now < datetime.datetime(2026, 12, 3, 3, 0, tzinfo=KST):
+        print("  틱톡: Buffer API 중지 기간(12-03까지), Buffer 웹 예약 필요")
+        return
+    # 한도가 풀린 뒤 밀린 편이 한꺼번에 올라가지 않게: 게시 시각에서 6시간 넘게 지난 편은 자동으로 안 올린다.
+    if now - datetime.datetime.fromisoformat(item["at"]) > datetime.timedelta(hours=6):
+        print("  틱톡: 게시 시각이 6시간 넘게 지나 자동 게시 안 함")
+        return
     q = ("mutation($input: CreatePostInput!){ createPost(input:$input){ "
          "... on PostActionSuccess { post { id status } } ... on MutationError { message } } }")
     inp = {"channelId": os.environ["BUFFER_TIKTOK_CHANNEL_ID"], "text": item["ig"]["caption"],
