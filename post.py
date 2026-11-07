@@ -163,6 +163,8 @@ def main():
         key = item["key"]
         if only and key != only:
             continue
+        if item.get("hold"):  # 멈춤 표시 (2026-11-08 사용자: 고급판 교체 전까지 예약 멈춤)
+            continue
         if not only and datetime.datetime.fromisoformat(item["at"]) > now:
             continue
         rec = STATE.setdefault(key, {})
