@@ -181,16 +181,16 @@
   "done": "2026-11-04T09:02:19+09:00"
  },
  "ko-SH012": {
-  "tt_id": "buffer:6aeb0d86961fae078acb586f (11-08 12:00 예약)"
+  "tt_draft": "buffer:6aeb0d86961fae078acb586f (11-08 12:00 예약) → 11-08 Buffer 임시 보관함으로 옮김(고급판 교체 대기)"
  },
  "ko-SH013": {
-  "tt_id": "buffer:6aeb350f42259de689240f80 (11-08 19:00 예약)"
+  "tt_draft": "buffer:6aeb350f42259de689240f80 (11-08 19:00 예약) → 11-08 Buffer 임시 보관함으로 옮김(고급판 교체 대기)"
  },
  "ko-SH014": {
-  "tt_id": "buffer:6aeb3511ae54f9a49c829c3a (11-09 12:00 예약)"
+  "tt_draft": "buffer:6aeb3511ae54f9a49c829c3a (11-09 12:00 예약) → 11-08 Buffer 임시 보관함으로 옮김(고급판 교체 대기)"
  },
  "ko-SH015": {
-  "tt_id": "buffer:6aeb3512ae54f9a49c829c78 (11-09 19:00 예약)"
+  "tt_draft": "buffer:6aeb3512ae54f9a49c829c78 (11-09 19:00 예약) → 11-08 Buffer 임시 보관함으로 옮김(고급판 교체 대기)"
  },
  "en-SH005": {
   "ig_container": "18155502673504239",
@@ -316,7 +316,7 @@
   "done": "2026-11-06T11:03:22+09:00"
  },
  "ko-SH016": {
-  "tt_id": "web: Buffer 웹 예약 11-10 12:00 (API 한도)"
+  "tt_draft": "web: Buffer 웹 예약 11-10 12:00 (API 한도) → 11-08 Buffer 임시 보관함으로 옮김(고급판 교체 대기)"
  },
  "en-SH009": {
   "ig_container": "18156074458504239",
