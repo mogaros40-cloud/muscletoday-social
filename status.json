@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T19:00:48+09:00",
+ "updated": "2026-11-12T01:00:53+09:00",
  "items": [
   {
    "key": "ko-SH001",
@@ -452,6 +452,21 @@
    "due": false,
    "ig": "scheduled",
    "threads": "scheduled"
+  },
+  {
+   "key": "en-SH030",
+   "at": "2026-11-17T09:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "ko-SH030",
+   "at": "2026-11-17T12:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
   },
   {
    "key": "ko-LV003T",
