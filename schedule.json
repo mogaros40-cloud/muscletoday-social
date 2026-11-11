@@ -900,6 +900,36 @@
   }
  },
  {
+  "key": "en-SH030",
+  "lang": "en",
+  "at": "2026-11-17T09:00:00+09:00",
+  "video": "media/en/SH030.mp4",
+  "ig": {
+   "caption": "Does leg press alone build your whole thigh? Here's what the research says.\n\n17 beginners trained one leg on leg press and the other on leg extensions for 12 weeks. The whole front thigh grew about the same (+4.9% vs +7.1%), but the middle muscle (rectus femoris) barely grew on the leg press side (+1.1% vs +13.2%). Leg press grew the glutes instead (+15.4%).\nSmall study (17 people), results vary.\n\nGet the Muscle Today app from the link in our profile.\n\nStudies: Kinoshita M et al. 2026 (PMID 41630124)\n\n#fitness #legday #legpress #workout #muscletoday",
+   "comment": "Leg press only, or leg extensions too?"
+  },
+  "threads": {
+   "text": "Does leg press alone build your whole thigh?\nIn a 12-week one-leg-each study, the front thigh grew about the same, but the rectus femoris barely grew with leg press (+1.1% vs +13.2%). Glutes grew +15.4% instead (small study, 17 people).\nWhat do you do for legs?",
+   "topic": "Fitness",
+   "reply": "Studies\n- Kinoshita M et al. (2026) Med Sci Sports Exerc, Within-subject randomized trial (17 people): https://pubmed.ncbi.nlm.nih.gov/41630124/\n\nMuscle Today, the muscle growth tracking app (Google Play)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Den"
+  }
+ },
+ {
+  "key": "ko-SH030",
+  "lang": "ko",
+  "at": "2026-11-17T12:00:00+09:00",
+  "video": "media/ko/SH030.mp4",
+  "ig": {
+   "caption": "레그프레스만 하면 허벅지 다 큰다? 논문으로 확인해 봤어요.\n\n운동 초보 17명이 한쪽 다리는 레그프레스, 다른 쪽은 레그 익스텐션을 12주 했더니, 허벅지 앞 전체는 둘 다 비슷하게 컸어요(+4.9% vs +7.1%). 그런데 허벅지 한가운데 근육(대퇴직근)은 레그프레스 쪽이 +1.1%로 거의 안 컸고, 레그 익스텐션 쪽은 +13.2%였어요. 대신 레그프레스는 엉덩이 근육이 +15.4% 컸고요.\n17명 작은 실험이고 결과는 사람마다 달라요.\n\n근성장 관리 앱 오늘근육은 프로필 링크에서 받을 수 있어요.\n\n참고: Kinoshita M 외 2026 (PMID 41630124)\n\n#오늘근육 #하체운동 #레그프레스 #헬스 #운동상식",
+   "comment": "허벅지 운동, 레그프레스만 하세요 레그 익스텐션도 하세요?"
+  },
+  "threads": {
+   "text": "레그프레스만 하면 허벅지 다 커질까요?\n한쪽 다리씩 12주 비교한 실험에서 허벅지 앞 전체는 비슷했지만, 한가운데 근육(대퇴직근)은 레그프레스 쪽만 거의 안 컸어요(+1.1% vs +13.2%). 대신 엉덩이는 +15.4%(17명 작은 실험).\n허벅지 운동, 뭐 하세요?",
+   "topic": "헬스",
+   "reply": "참고 논문\n- Kinoshita M 외 (2026) Med Sci Sports Exerc, 무작위 한 다리씩 비교(17명): https://pubmed.ncbi.nlm.nih.gov/41630124/\n\n근성장 관리 앱 오늘근육 (구글 플레이)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Dko"
+  }
+ },
+ {
   "key": "ko-LV003T",
   "lang": "ko",
   "at": "2026-12-05T21:00:00+09:00",
