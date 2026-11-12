@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T04:15:42+09:00",
+ "updated": "2026-11-13T04:30:52+09:00",
  "items": [
   {
    "key": "ko-SH001",
@@ -332,7 +332,7 @@
    "due": true,
    "ig": "missing",
    "threads": "missing",
-   "last_error": "2026-11-13T04:15:42.949193+09:00 post_threads: 400 https://graph.threads.net/v1.0/29455492690806105/threads {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A"
+   "last_error": "2026-11-13T04:30:52.039310+09:00 post_threads: 400 https://graph.threads.net/v1.0/29455492690806105/threads {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A"
   },
   {
    "key": "en-SH022",
