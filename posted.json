@@ -94,7 +94,7 @@
   "th_reply_container": "18029466170888387",
   "th_reply": "17942521203388871",
   "done": "2026-11-06T12:02:38+09:00",
-  "tt_checked": "2026-11-13T06:15:46+09:00"
+  "tt_checked": "2026-11-13T07:30:48+09:00"
  },
  "ko-SH009": {
   "tt_id": "buffer:6ae8c9330c3d9c450cee6810",
@@ -106,7 +106,7 @@
   "th_reply_container": "18029535341888387",
   "th_reply": "18099076229438061",
   "done": "2026-11-06T19:02:26+09:00",
-  "tt_checked": "2026-11-13T06:15:46+09:00"
+  "tt_checked": "2026-11-13T07:30:48+09:00"
  },
  "ko-SH010": {
   "tt_id": "buffer:6ae8c934a99125fa8e9d9cba",
@@ -118,7 +118,7 @@
   "th_reply_container": "18029672057888387",
   "th_reply": "17999502699008017",
   "done": "2026-11-07T12:02:31+09:00",
-  "tt_checked": "2026-11-13T06:15:46+09:00"
+  "tt_checked": "2026-11-13T07:30:48+09:00"
  },
  "ko-SH011": {
   "tt_id": "buffer:6ae93da50d3397810d074e99 (11-07 19:00 예약)",
@@ -130,7 +130,7 @@
   "th_reply_container": "18029715572888387",
   "th_reply": "17949420960345623",
   "done": "2026-11-07T19:02:25+09:00",
-  "tt_checked": "2026-11-13T06:15:46+09:00"
+  "tt_checked": "2026-11-13T07:30:48+09:00"
  },
  "en-SH001": {
   "ig_container": "18154801831504239",
@@ -615,7 +615,9 @@
    "2026-11-13T07:01:15.737531+09:00 post_instagram: 400 https://graph.facebook.com/v23.0/17841415127166656/media {\"error\":{\"message\":\"API access blocked.\",\"code\":200,\"type\":\"OAuthException\",\"fbtrace_id\":\"AwhduN-vSko5K_ODRzP00V8\"}}",
    "2026-11-13T07:01:15.737531+09:00 post_threads: 400 https://graph.threads.net/v1.0/29455492690806105/threads {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"Alpy1JZde4MnYwBuoOSjGi-\"}}",
    "2026-11-13T07:15:41.410791+09:00 post_instagram: 400 https://graph.facebook.com/v23.0/17841415127166656/media {\"error\":{\"message\":\"API access blocked.\",\"code\":200,\"type\":\"OAuthException\",\"fbtrace_id\":\"AZ8vxcRWeKLoXAT26evbVSu\"}}",
-   "2026-11-13T07:15:41.410791+09:00 post_threads: 400 https://graph.threads.net/v1.0/29455492690806105/threads {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A6Cs2FcM7r7JzF9LUz3egqC\"}}"
+   "2026-11-13T07:15:41.410791+09:00 post_threads: 400 https://graph.threads.net/v1.0/29455492690806105/threads {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A6Cs2FcM7r7JzF9LUz3egqC\"}}",
+   "2026-11-13T07:30:48.707221+09:00 post_instagram: 400 https://graph.facebook.com/v23.0/17841415127166656/media {\"error\":{\"message\":\"API access blocked.\",\"code\":200,\"type\":\"OAuthException\",\"fbtrace_id\":\"ATn0NLnF7huspYjPLzn5-b8\"}}",
+   "2026-11-13T07:30:48.707221+09:00 post_threads: 400 https://graph.threads.net/v1.0/29455492690806105/threads {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A1d4kkLpJ-pJcl2BHmB8MqI\"}}"
   ]
  }
 }
