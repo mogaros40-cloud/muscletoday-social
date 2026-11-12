@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T02:31:44+09:00",
+ "updated": "2026-11-13T02:46:20+09:00",
  "items": [
   {
    "key": "ko-SH001",
@@ -332,7 +332,7 @@
    "due": true,
    "ig": "missing",
    "threads": "missing",
-   "last_error": "2026-11-13T02:31:44.792180+09:00 post_threads: 400 https://graph.threads.net/v1.0/29455492690806105/threads {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A"
+   "last_error": "2026-11-13T02:46:20.693536+09:00 post_threads: 400 https://graph.threads.net/v1.0/29455492690806105/threads {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A"
   },
   {
    "key": "en-SH022",
@@ -980,6 +980,44 @@
    "tiktok": "none"
   },
   {
+   "key": "ko-SH065",
+   "at": "2026-12-04T19:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "en-SH065",
+   "at": "2026-12-05T02:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "en-SH066",
+   "at": "2026-12-05T09:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "ko-SH066",
+   "at": "2026-12-05T12:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "ko-SH067",
+   "at": "2026-12-05T19:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
    "key": "ko-LV003T",
    "at": "2026-12-05T21:00:00+09:00",
    "due": false,
@@ -988,8 +1026,225 @@
    "tiktok": "none"
   },
   {
+   "key": "en-SH067",
+   "at": "2026-12-06T02:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "en-SH068",
+   "at": "2026-12-06T09:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
    "key": "en-LV003T",
    "at": "2026-12-06T11:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "ko-SH068",
+   "at": "2026-12-06T12:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "ko-SH069",
+   "at": "2026-12-06T19:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "en-SH069",
+   "at": "2026-12-07T02:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "en-SH070",
+   "at": "2026-12-07T09:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "ko-SH070",
+   "at": "2026-12-07T12:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "ko-SH071",
+   "at": "2026-12-07T19:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "en-SH071",
+   "at": "2026-12-08T02:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "en-SH072",
+   "at": "2026-12-08T09:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "ko-SH072",
+   "at": "2026-12-08T12:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "ko-SH073",
+   "at": "2026-12-08T19:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "en-SH073",
+   "at": "2026-12-09T02:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "en-SH074",
+   "at": "2026-12-09T09:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "ko-SH074",
+   "at": "2026-12-09T12:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "ko-SH075",
+   "at": "2026-12-09T19:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "en-SH075",
+   "at": "2026-12-10T02:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "en-SH076",
+   "at": "2026-12-10T09:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "ko-SH076",
+   "at": "2026-12-10T12:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "ko-SH077",
+   "at": "2026-12-10T19:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "en-SH077",
+   "at": "2026-12-11T02:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "en-SH078",
+   "at": "2026-12-11T09:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "ko-SH078",
+   "at": "2026-12-11T12:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "ko-SH079",
+   "at": "2026-12-11T19:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "en-SH079",
+   "at": "2026-12-12T02:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "en-SH080",
+   "at": "2026-12-12T09:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "ko-SH080",
+   "at": "2026-12-12T12:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "ko-SH081",
+   "at": "2026-12-12T19:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
+  },
+  {
+   "key": "en-SH081",
+   "at": "2026-12-13T02:00:00+09:00",
    "due": false,
    "ig": "scheduled",
    "threads": "scheduled"
