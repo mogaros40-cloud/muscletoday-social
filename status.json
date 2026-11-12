@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T12:01:51+09:00",
+ "updated": "2026-11-12T12:16:43+09:00",
  "items": [
   {
    "key": "ko-SH001",
@@ -384,7 +384,7 @@
    "due": false,
    "ig": "scheduled",
    "threads": "scheduled",
-   "tiktok": "none"
+   "tiktok": "scheduled"
   },
   {
    "key": "en-SH025",
@@ -406,7 +406,7 @@
    "due": false,
    "ig": "scheduled",
    "threads": "scheduled",
-   "tiktok": "none"
+   "tiktok": "scheduled"
   },
   {
    "key": "ko-SH027",
@@ -414,7 +414,7 @@
    "due": false,
    "ig": "scheduled",
    "threads": "scheduled",
-   "tiktok": "none"
+   "tiktok": "scheduled"
   },
   {
    "key": "en-SH027",
@@ -436,7 +436,7 @@
    "due": false,
    "ig": "scheduled",
    "threads": "scheduled",
-   "tiktok": "none"
+   "tiktok": "scheduled"
   },
   {
    "key": "ko-SH029",
@@ -444,7 +444,7 @@
    "due": false,
    "ig": "scheduled",
    "threads": "scheduled",
-   "tiktok": "none"
+   "tiktok": "scheduled"
   },
   {
    "key": "en-SH029",
@@ -466,7 +466,7 @@
    "due": false,
    "ig": "scheduled",
    "threads": "scheduled",
-   "tiktok": "none"
+   "tiktok": "scheduled"
   },
   {
    "key": "ko-SH031",
