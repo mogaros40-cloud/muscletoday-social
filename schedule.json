@@ -1890,6 +1890,36 @@
   }
  },
  {
+  "key": "ko-SH063",
+  "lang": "ko",
+  "at": "2026-12-03T19:00:00+09:00",
+  "video": "media/ko/SH063.mp4",
+  "ig": {
+   "caption": "한쪽만 운동해도 반대쪽 세진다? 논문으로 확인해 봤어요.\n\n한쪽 다리만 운동한 연구 29편을 모아 보니, 운동 안 한 다리도 최대 무게(1RM)가 대조군보다 늘었어요(효과 크기 0.59).\n한쪽 팔 실험 31편(1,214명)에서도 안 한 팔의 1RM이 작지만 의미 있게 늘었어요(효과 크기 0.36).\n그런데 안 한 팔의 근육 두께는 의미 있는 변화가 없었어요(0.14).\n연구진은 근육보다 뇌와 신경의 변화로 봐요. 한쪽 운동하는 날도, 쉬는 쪽은 힘 쓰는 법을 배우고 있어요.\n결과는 연구 평균이고 사람마다 달라요.\n\n근성장 관리 앱 오늘근육은 프로필 링크에서 받을 수 있어요.\n\n참고: Altheyab A 외 2026 (PMID 39235953) · Hernando-Garijo I 외 2026 (PMID 42323824)\n\n#오늘근육 #교차효과 #한쪽운동 #근력운동 #운동상식",
+   "comment": "한쪽씩 하는 운동, 루틴에 넣고 있나요?"
+  },
+  "threads": {
+   "text": "한쪽만 운동해도, 반대쪽이 세질까요?\n한쪽 다리만 운동한 연구 29편: 안 한 다리 최대 무게도 늘었어요(효과 크기 0.59). 팔 실험 31편(1,214명)도 같은 방향(0.36)이었지만, 안 한 팔 근육 두께는 그대로(0.14, 의미 없음).\n힘은 뇌와 신경이 같이 배운다는 해석이에요.\n여러분은 한쪽씩 하는 운동 하세요?",
+   "topic": "헬스",
+   "reply": "참고 논문\n- Altheyab A 외 (2026) Exp Physiol, 메타분석(다리 연구 29편): https://pubmed.ncbi.nlm.nih.gov/39235953/\n- Hernando-Garijo I 외 (2026) Physiother Theory Pract, 메타분석(팔 무작위 실험 31편, 1,214명): https://pubmed.ncbi.nlm.nih.gov/42323824/\n\n근성장 관리 앱 오늘근육 (구글 플레이)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Dko"
+  }
+ },
+ {
+  "key": "en-SH063",
+  "lang": "en",
+  "at": "2026-12-04T02:00:00+09:00",
+  "video": "media/en/SH063.mp4",
+  "ig": {
+   "caption": "Train one side, the other gets stronger? Here's what the research says.\n\n29 studies trained just one leg. The untrained leg's 1-rep max still went up compared with controls (effect size 0.59).\n31 one-arm trials (1,214 people) showed the same direction: a small but real 1RM gain in the untrained arm (effect size 0.36).\nBut muscle thickness in the untrained arm didn't meaningfully change (0.14).\nResearchers credit the brain and nerves, not muscle growth. On one-side days, your resting side is still learning strength.\nAverages from research; results vary.\n\nGet the Muscle Today app from the link in our profile.\n\nStudies: Altheyab A et al. 2026 (PMID 39235953) · Hernando-Garijo I et al. 2026 (PMID 42323824)\n\n#fitness #strengthtraining #unilateral #workout #muscletoday",
+   "comment": "Do you do single-arm or single-leg work?"
+  },
+  "threads": {
+   "text": "Train one side, and the other side gets stronger?\n29 one-leg studies: the untrained leg's max lift went up too (effect size 0.59). 31 arm trials (1,214 people) pointed the same way (0.36), but untrained-arm muscle thickness didn't change (0.14, not significant).\nThe idea: your brain and nerves learn strength for both sides.\nDo you train one side at a time?",
+   "topic": "Fitness",
+   "reply": "Studies\n- Altheyab A et al. (2026) Exp Physiol, Meta-analysis (29 leg studies): https://pubmed.ncbi.nlm.nih.gov/39235953/\n- Hernando-Garijo I et al. (2026) Physiother Theory Pract, Meta-analysis (31 arm randomized trials, 1,214 people): https://pubmed.ncbi.nlm.nih.gov/42323824/\n\nMuscle Today, the muscle growth tracking app (Google Play)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Den"
+  }
+ },
+ {
   "key": "ko-LV003T",
   "lang": "ko",
   "at": "2026-12-05T21:00:00+09:00",
