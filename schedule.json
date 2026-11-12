@@ -1920,6 +1920,36 @@
   }
  },
  {
+  "key": "en-SH064",
+  "lang": "en",
+  "at": "2026-12-04T09:00:00+09:00",
+  "video": "media/en/SH064.mp4",
+  "ig": {
+   "caption": "Can push-ups build your chest like bench press? Here's what the research says.\n\n18 young men trained for 8 weeks: half did bench press at 40% of their max, half did push-ups matched to the same load (like from the knees). Push-up chest thickness went from 17.0 to 20.8 mm, about the same as bench, and triceps grew from 27.7 to 30.4 mm.\nIn a 5-week study of 30 lifters, band push-ups built strength like bench (muscle size not measured).\nSmall studies, results vary. Too hard? Use your knees. Too easy? Add a band.\n\nGet the Muscle Today app from the link in our profile.\n\nStudies: Kikuchi N et al. 2017 (PMID 29541130) · Calatayud J et al. 2015 (PMID 24983847)\n\n#fitness #pushups #chestworkout #workout #muscletoday",
+   "comment": "Team bench or team push-ups?"
+  },
+  "threads": {
+   "text": "Can push-ups grow your chest?\nIn an 8-week study of 18 young men, push-ups matched to a 40% bench load grew chest thickness from 17.0 to 20.8 mm, about the same as bench (small study).\nIt's the load, not the equipment. What do you do for chest?",
+   "topic": "Fitness",
+   "reply": "Studies\n- Kikuchi N et al. (2017) J Exerc Sci Fit, Randomized trial (18 people): https://pubmed.ncbi.nlm.nih.gov/29541130/\n- Calatayud J et al. (2015) J Strength Cond Res, Randomized trial (30 people, strength only): https://pubmed.ncbi.nlm.nih.gov/24983847/\n\nMuscle Today, the muscle growth tracking app (Google Play)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Den"
+  }
+ },
+ {
+  "key": "ko-SH064",
+  "lang": "ko",
+  "at": "2026-12-04T12:00:00+09:00",
+  "video": "media/ko/SH064.mp4",
+  "ig": {
+   "caption": "가슴은 벤치를 해야 큰다? 논문으로 확인해 봤어요.\n\n젊은 남성 18명을 나눠 8주 동안, 한쪽은 최대 무게의 40%로 벤치프레스, 다른 쪽은 무릎을 대는 식으로 같은 무게에 맞춘 푸시업을 했어요. 푸시업 쪽 가슴 두께가 17.0mm에서 20.8mm로 늘어 벤치 쪽과 비슷했고, 삼두도 27.7mm에서 30.4mm로 커졌어요.\n운동 경험자 30명 5주 실험에서는 밴드를 건 푸시업도 벤치만큼 근력이 늘었어요(근육 크기는 안 잼).\n둘 다 작은 실험이고 결과는 사람마다 달라요. 힘들면 무릎 대고, 쉬우면 밴드로 무게를 맞춰 보세요.\n\n근성장 관리 앱 오늘근육은 프로필 링크에서 받을 수 있어요.\n\n참고: Kikuchi N 외 2017 (PMID 29541130) · Calatayud J 외 2015 (PMID 24983847)\n\n#오늘근육 #푸시업 #가슴운동 #홈트 #운동상식",
+   "comment": "가슴 운동, 벤치파세요 푸시업파세요?"
+  },
+  "threads": {
+   "text": "푸시업으로도 가슴 커질까요?\n젊은 남성 18명 8주 실험에서, 벤치 40% 무게에 맞춘 푸시업(무릎 대기 등)으로 가슴 두께가 17.0→20.8mm, 벤치 쪽과 비슷하게 늘었어요(작은 실험).\n핵심은 맨몸이냐 기구냐보다 무게. 여러분은 가슴 운동 뭐 하세요?",
+   "topic": "헬스",
+   "reply": "참고 논문\n- Kikuchi N 외 (2017) J Exerc Sci Fit, 무작위 실험(18명): https://pubmed.ncbi.nlm.nih.gov/29541130/\n- Calatayud J 외 (2015) J Strength Cond Res, 무작위 실험(30명, 근력만 잼): https://pubmed.ncbi.nlm.nih.gov/24983847/\n\n근성장 관리 앱 오늘근육 (구글 플레이)\nhttps://play.google.com/store/apps/details?id=com.muscletoday.app&referrer=utm_source%3Dthreads%26utm_medium%3Dpost%26utm_campaign%3Dko"
+  }
+ },
+ {
   "key": "ko-LV003T",
   "lang": "ko",
   "at": "2026-12-05T21:00:00+09:00",
