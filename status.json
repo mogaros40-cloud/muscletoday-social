@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T08:45:37+09:00",
+ "updated": "2026-11-13T09:01:02+09:00",
  "items": [
   {
    "key": "ko-SH001",
@@ -332,14 +332,15 @@
    "due": true,
    "ig": "missing",
    "threads": "missing",
-   "last_error": "2026-11-13T08:45:37.396791+09:00 post_threads: 400 https://graph.threads.net/v1.0/29455492690806105/threads {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\""
+   "last_error": "2026-11-13T09:01:02.372771+09:00 post_threads: 400 https://graph.threads.net/v1.0/29455492690806105/threads {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\""
   },
   {
    "key": "en-SH022",
    "at": "2026-11-13T09:00:00+09:00",
-   "due": false,
-   "ig": "scheduled",
-   "threads": "scheduled"
+   "due": true,
+   "ig": "missing",
+   "threads": "missing",
+   "last_error": "2026-11-13T09:01:02.372771+09:00 post_threads: 400 https://graph.threads.net/v1.0/29455492690806105/threads {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\""
   },
   {
    "key": "ko-SH022",
