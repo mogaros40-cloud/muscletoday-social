@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T19:00:51+09:00",
+ "updated": "2026-11-20T19:15:35+09:00",
  "items": [
   {
    "key": "ko-SH001",
@@ -566,7 +566,7 @@
    "at": "2026-11-20T19:00:00+09:00",
    "due": true,
    "ig": "ok",
-   "threads": "missing",
+   "threads": "ok",
    "tiktok": "missing",
    "last_error": "2026-11-20T19:00:51.543761+09:00 post_threads: 처리 실패 18031872713888387: {'id': '18031872713888387', 'status': 'ERROR'}"
   },
