@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T12:00:55+09:00",
+ "updated": "2026-11-20T19:00:51+09:00",
  "items": [
   {
    "key": "ko-SH001",
@@ -564,10 +564,11 @@
   {
    "key": "ko-SH037",
    "at": "2026-11-20T19:00:00+09:00",
-   "due": false,
-   "ig": "scheduled",
-   "threads": "scheduled",
-   "tiktok": "none"
+   "due": true,
+   "ig": "ok",
+   "threads": "missing",
+   "tiktok": "missing",
+   "last_error": "2026-11-20T19:00:51.543761+09:00 post_threads: 처리 실패 18031872713888387: {'id': '18031872713888387', 'status': 'ERROR'}"
   },
   {
    "key": "en-SH037",
