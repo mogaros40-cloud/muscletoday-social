@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T19:00:52+09:00",
+ "updated": "2026-11-23T01:31:00+09:00",
  "items": [
   {
    "key": "ko-SH001",
@@ -653,15 +653,15 @@
    "tiktok": "none"
   },
   {
-   "key": "ko-SH043",
+   "key": "ko-SH082",
    "at": "2026-11-23T19:00:00+09:00",
    "due": false,
    "ig": "scheduled",
    "threads": "scheduled",
-   "tiktok": "none"
+   "tiktok": "scheduled"
   },
   {
-   "key": "en-SH043",
+   "key": "en-SH082",
    "at": "2026-11-24T02:00:00+09:00",
    "due": false,
    "ig": "scheduled",
@@ -1251,6 +1251,21 @@
    "due": false,
    "ig": "scheduled",
    "threads": "scheduled"
+  },
+  {
+   "key": "en-SH043",
+   "at": "2026-12-13T09:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled"
+  },
+  {
+   "key": "ko-SH043",
+   "at": "2026-12-13T12:00:00+09:00",
+   "due": false,
+   "ig": "scheduled",
+   "threads": "scheduled",
+   "tiktok": "none"
   }
  ]
 }
