@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T19:00:55+09:00",
+ "updated": "2026-11-28T02:00:59+09:00",
  "items": [
   {
    "key": "ko-SH001",
@@ -783,9 +783,9 @@
   {
    "key": "en-SH051",
    "at": "2026-11-28T02:00:00+09:00",
-   "due": false,
-   "ig": "scheduled",
-   "threads": "scheduled"
+   "due": true,
+   "ig": "ok",
+   "threads": "ok"
   },
   {
    "key": "en-SH052",
